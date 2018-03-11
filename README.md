@@ -1,27 +1,11 @@
-# MAX
-Setup scripts to install applications on mac OS
+#README.MD
 
-firefox
-chrome
-zsh
-kp
-raindrop
-atom
-telegram
-mpv
-vlc
-caret
-simplenote
-evernote
-ccleaner
-android file transfer
-ticktick
-wunderlist
-dbeaver
-aniconda navigator
-jupyter notebook and jupyter lab
-compare folders
-adobe dng converter
-corel aftershot
-tuxera disk manager
-keka
+##MAX - Scripts to install software after a fresh install of MAC OSX.
+
+##Files:
+
+* appinstall.sh - install xcode, homebrew, cask, text editor, browsers, and other apps. set zsh as default shell.
+
+* font.sh - install Powerline fonts.
+
+* README.MD - readme file for this repository.
