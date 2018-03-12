@@ -45,13 +45,14 @@ brew cask install spectacle;
 brew cask install vlc;
 brew cask install telegram;
 brew cask install evernote;
-brew cask install simplenote;  
+brew cask install simplenote;
 brew cask install flux;
 brew cask install android-file-transfer;
 brew cask install androidtool;
 brew cask install teamviewer;
 brew cask install raindropio;
 brew cask install ticktick;
+brew cask install insomniax;
 chsh -s /usr/local/bin/zsh;
 echo "installation complete!";
 

@@ -11,3 +11,5 @@
 * **README.MD** - readme file for this repository.
 
 * **To Do**
+ - incorporate font installation and zsh theme
+ - add additional application packages
