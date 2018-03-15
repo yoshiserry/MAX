@@ -27,10 +27,12 @@ PROD=$(softwareupdate -l |
   softwareupdate -i "$PROD" -v;
 
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
+brew doctor && brew cask cleanup && brew update-reset && brew update;
 brew install git;
 brew install zsh zsh-completions;
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)";
 brew tap caskroom/versions;
+brew doctor && brew cask cleanup && brew update-reset && brew update;
 brew cask install atom;
 brew cask install keka;
 brew cask install keepassxc;
@@ -53,8 +55,12 @@ brew cask install teamviewer;
 brew cask install raindropio;
 brew cask install ticktick;
 brew cask install insomniax;
+brew cask install gitkraken
+brew cask install iterm2
+brew doctor && brew cask cleanup && brew update-reset && brew update;
+brew cask install anaconda
 chsh -s /usr/local/bin/zsh;
-echo "installation complete!";
+echo "Installation of packages from Github using Homebrew and Cask complete!";
 
 #installation of ZSH themes
 #1. https://github.com/wesbos/Cobalt2-iterm https://www.youtube.com/watch?v=XSeO6nnlWHw
