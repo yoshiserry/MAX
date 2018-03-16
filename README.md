@@ -11,5 +11,5 @@
 * **README.MD** - readme file for this repository.
 
 * **To Do**
- - incorporate font installation and zsh theme
- - add additional application packages
+ - incorporate font installation and zsh theme for iterm2 colbat
+ - add additional application packages using the bootstrap method.
